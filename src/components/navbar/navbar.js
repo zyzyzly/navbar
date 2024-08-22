@@ -57,9 +57,11 @@ export const CustomNavbar = () => {
           {/* Right Elements */}
           <Nav className="ml-auto">
             <Nav.Link href="#">
-              <div className="nav-icon-text">
-                <GiComputerFan />
-                <span>Post My RFQ</span>
+              <div className="RFQ">
+                <div className="nav-icon-text">
+                  <GiComputerFan />
+                  <span>Post My RFQ</span>
+                </div>
               </div>
             </Nav.Link>
             <Nav.Link href="#">

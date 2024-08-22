@@ -52,3 +52,7 @@ body {
   border: none !important;
   box-shadow: none !important;
 }
+
+.RFQ {
+  color: red;
+}
