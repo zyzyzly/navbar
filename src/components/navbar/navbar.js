@@ -7,15 +7,12 @@ import {
   Dropdown,
   Button,
 } from "react-bootstrap";
-import {
-  FaSearch,
-  FaEnvelope,
-  FaSignInAlt,
-  FaShoppingBasket,
-} from "react-icons/fa";
+import { FaSearch, FaEnvelope } from "react-icons/fa";
 import "./navbar.css";
 import { GiComputerFan } from "react-icons/gi";
 import { TfiMenuAlt } from "react-icons/tfi";
+import { VscAccount } from "react-icons/vsc";
+import { FaCartArrowDown } from "react-icons/fa6";
 
 export const CustomNavbar = () => {
   return (
@@ -67,7 +64,7 @@ export const CustomNavbar = () => {
             </Nav.Link>
             <Nav.Link href="#">
               <div className="nav-icon-text">
-                <FaSignInAlt />
+                <VscAccount />
                 <span>Sign In</span>
               </div>
             </Nav.Link>
@@ -79,7 +76,7 @@ export const CustomNavbar = () => {
             </Nav.Link>
             <Nav.Link href="#">
               <div className="nav-icon-text">
-                <FaShoppingBasket />
+                <FaCartArrowDown />
                 <span>Inquiry Basket</span>
               </div>
             </Nav.Link>
